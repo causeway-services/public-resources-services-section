@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
-import { listDirectoryEntries } from "@red-cup-engineering/filepath-services-section/list-directory-entries";
+import { listDirectoryEntries } from "@red-cup-engineering/computer-filepath-engineering-services-section/list-directory-entries";
 import { readFileText } from "@red-cup-engineering/file-services/read-file";
 import { writeFileText } from "@red-cup-engineering/file-services/write-file";
 import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-services-section/operation";

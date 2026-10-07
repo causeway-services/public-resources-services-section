@@ -1,9 +1,0 @@
-{
-  "name": "@causeway-services/public-resources-services-section",
-  "version": "0.1.0",
-  "description": "Causeway Services' public-resource records and delivery surfaces, holding public consumer resources and public energy records.",
-  "type": "module",
-  "keywords": [
-    "public"
-  ]
-}

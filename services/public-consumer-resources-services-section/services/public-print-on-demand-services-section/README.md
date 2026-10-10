@@ -1,6 +1,6 @@
 # Public Print-on-Demand Services Section
 
-`@red-cup-engineering/print-on-demand-design-factory` generates print-ready
+`@red-cup-engineering/public-print-on-demand-services-section` generates print-ready
 designs and their listing copy (title, description, tags, product targets)
 as code for the Fine Print Mercantile print-on-demand shop. Two lanes:
 zero-cost typographic SVG rendering (`src/design-factory.mjs`), and a real

@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/print-on-demand-design-factory",
+  "name": "@red-cup-engineering/public-print-on-demand-services-section",
   "version": "0.1.0",
   "type": "module",
   "description": "Generates print-ready typographic SVG designs, Cloudflare raster art, and listing copy for the Fine Print Mercantile print-on-demand shop. No HTTP upload client or account mutation.",

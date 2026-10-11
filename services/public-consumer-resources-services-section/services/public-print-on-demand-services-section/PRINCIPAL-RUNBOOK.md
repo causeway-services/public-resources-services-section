@@ -17,7 +17,7 @@ Everything engineering can do without a human identity is done: 36 print-ready d
 
 ## 3. What the automation already did (nothing left to build)
 
-- `apps/print-on-demand-design-factory-cli.mjs all` rendered 36 print-ready SVGs (12in × 15in @ 300 DPI canvas) to `data/state/rendered-designs/`.
+- `apps/print-on-demand-design-factory-cli.mjs all` rendered 36 print-ready SVGs (12in × 15in @ 300 DPI canvas) to `data/state/rendered-design-state/`.
 - `LISTINGS.md` maps every design to its title, description, tags, and product targets (shirt/mug/sticker/poster) — ready to paste into each Printify product listing.
 - `data/records/2026-08-31-pod-channel-decision.json` has the full channel-decision evidence trail if you want to sanity-check the Printify-over-Redbubble/Etsy call before signing up.
 - A second, real raster-art generation lane is live and already used: `apps/print-on-demand-design-factory-cli.mjs art-set <ids>` generated the 12 art files above through a private Cloudflare Workers AI Worker (`sites/pod-image-generation-worker`, deployed under your Cloudflare account, unlisted -- no custom domain or public route) at $0 marginal cost. The image worker is the only default provider.
@@ -28,7 +28,7 @@ The raster lane uses the existing Cloudflare Workers AI worker and its account a
 
 ## 4. After the account exists (first listing session, ~1-2 hrs one time)
 
-1. In Printify, create a product (start with the shirt: Bella+Canvas 3001). For a text-only design, upload the corresponding SVG from `data/state/rendered-designs/<id>.svg` as the print file (Printify accepts vector SVG uploads directly for text-based artwork). For one of the 12 designs with generated art, upload `data/state/rendered-designs/<id>-art.png` instead (already a real 2400×2400 PNG, no conversion needed) -- and check `LISTINGS.md`'s "generated art" line for that design to confirm the path.
+1. In Printify, create a product (start with the shirt: Bella+Canvas 3001). For a text-only design, upload the corresponding SVG from `data/state/rendered-design-state/<id>.svg` as the print file (Printify accepts vector SVG uploads directly for text-based artwork). For one of the 12 designs with generated art, upload `data/state/rendered-design-state/<id>-art.png` instead (already a real 2400×2400 PNG, no conversion needed) -- and check `LISTINGS.md`'s "generated art" line for that design to confirm the path.
 2. Set the price from `SHOP.md`'s pricing table: text-only tier ($21.99 shirt / $15.99 mug / $4.49 sticker) for SVG designs, illustrated tier ($24.99 shirt / $17.99 mug / $5.49 sticker / $18.99 poster) for the 12 designs with generated art.
 3. Paste the title, description, and tags for that design straight from `LISTINGS.md`.
 4. Publish to the Pop-Up Store channel.

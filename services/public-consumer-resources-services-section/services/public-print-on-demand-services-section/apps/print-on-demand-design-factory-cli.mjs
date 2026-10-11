@@ -11,7 +11,7 @@ import { generateSetOfImageArt, writeImageGenerationReceipt } from "../scripts/g
 import { CORPUS, NICHES, designsByNiche } from "../src/corpus.mjs";
 import { mkdir, writeFile } from "node:fs/promises";
 
-const DEFAULT_OUT_DIR = path.join(import.meta.dirname, "..", "data", "state", "rendered-designs");
+const DEFAULT_OUT_DIR = path.join(import.meta.dirname, "..", "data", "state", "rendered-design-state");
 const DEFAULT_LISTINGS = path.join(import.meta.dirname, "..", "LISTINGS.md");
 
 function printStats() {

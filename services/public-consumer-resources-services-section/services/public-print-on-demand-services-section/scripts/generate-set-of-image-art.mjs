@@ -48,7 +48,7 @@ async function main() {
   const idsArg = process.argv[2];
   const outDir =
     process.argv[3] ??
-    path.join(import.meta.dirname, "..", "data", "state", "rendered-designs");
+    path.join(import.meta.dirname, "..", "data", "state", "rendered-design-state");
   const receiptDir = path.join(import.meta.dirname, "..", "data", "records");
 
   if (!idsArg) {

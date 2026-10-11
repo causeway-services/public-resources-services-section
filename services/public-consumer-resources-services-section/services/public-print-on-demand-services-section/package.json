@@ -1,0 +1,32 @@
+{
+  "name": "@red-cup-engineering/public-print-on-demand-services-section",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Generates print-ready typographic SVG designs, Cloudflare raster art, and listing copy for the Fine Print Mercantile print-on-demand shop. No HTTP upload client or account mutation.",
+  "main": "src/design-factory.mjs",
+  "exports": {
+    ".": "./src/design-factory.mjs",
+    "./corpus": "./src/corpus.mjs"
+  },
+  "bin": {
+    "pod-merch": "apps/print-on-demand-design-factory-cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/design-factory.mjs && node --check src/corpus.mjs && node --check scripts/generate-design.mjs && node --check scripts/generate-set-of-designs.mjs && node --check scripts/generate-image-art.mjs && node --check scripts/generate-set-of-image-art.mjs && node --check apps/print-on-demand-design-factory-cli.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/computer-inference-engine": "workspace:*",
+    "@red-cup-engineering/javascript-node-services-section": "workspace:*",
+    "sharp": "0.35.4"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "keywords": [
+    "print-on-demand",
+    "brand:fine-print-mercantile",
+    "design-generator",
+    "svg"
+  ]
+}

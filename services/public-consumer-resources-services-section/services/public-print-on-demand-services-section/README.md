@@ -33,7 +33,7 @@ Five-custody thread (org-layering.md, 2026-09-01):
 
 - `scripts/generate-set-of-image-art.mjs` hand-writes dated run receipts
   (`writeImageGenerationReceipt`) straight to `data/records/` instead of
-  going through `@red-cup-engineering/semantic-record-journal-service@0.1.9`.
+  going through `@red-cup-engineering/semiotic-eavt-services-section`.
   Not a cheap rewire: the journal's `record()` requires a SEAVT
   `charge: {support, refutation}` axis this receipt shape has no natural
   mapping for yet (a run's per-attempt outcomes are provenance, not

@@ -17,7 +17,7 @@ export async function generateSetOfDesigns(specs, outDir) {
   return results;
 }
 
-export function renderListingsMarkdown(specs, { svgDir = "data/state/rendered-designs" } = {}) {
+export function renderListingsMarkdown(specs, { svgDir = "data/state/rendered-design-state" } = {}) {
   const lines = [
     "# LISTINGS",
     "",
@@ -50,7 +50,7 @@ async function main() {
   const nicheArg = process.argv[2];
   const outDir =
     process.argv[3] ??
-    path.join(import.meta.dirname, "..", "data", "state", "rendered-designs");
+    path.join(import.meta.dirname, "..", "data", "state", "rendered-design-state");
   const listingsPath =
     process.argv[4] ?? path.join(import.meta.dirname, "..", "LISTINGS.md");
 

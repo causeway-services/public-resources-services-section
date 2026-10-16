@@ -4,7 +4,7 @@ import { dirname } from "node:path";
 import { listDirectoryEntries } from "@red-cup-engineering/computer-filepath-engineering-services-section/list-directory-entries";
 import { readFileText } from "@red-cup-engineering/computer-file-engineering-services-section/read-file";
 import { writeFileText } from "@red-cup-engineering/computer-file-engineering-services-section/write-file";
-import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-services-section/operation";
+import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-operation-service";
 
 const PACKAGE_ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 const RECORD_SUFFIX = "-energy-price-series.json";

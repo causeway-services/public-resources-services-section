@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-services-section/operation";
+import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-operation-service";
 // NREL PVWatts Calculator (https://pvwatts.nrel.gov/pvwatts.php) documents a default
 // system-loss-derived performance ratio in the 0.75-0.85 range; 0.80 is the declared
 // mid-range default used when a caller does not state its own ratio.

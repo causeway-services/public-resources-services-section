@@ -20,10 +20,10 @@
     "project-benchmark-latest": "node scripts/project-benchmark-latest.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/computer-file-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/javascript-node-services-section": "workspace:*",
-    "@x402/extensions": "2.19.0"
+    "@red-cup-engineering/computer-filepath-engineering-services-section": "0.1.0",
+    "@red-cup-engineering/computer-file-engineering-services-section": "0.4.0",
+    "@x402/extensions": "2.19.0",
+    "@red-cup-engineering/javascript-node-operation-service": "0.1.0"
   },
   "keywords": [
     "x402",

@@ -1,0 +1,12 @@
+[submodule "shop.561.group"]
+	path = services/public-consumer-resources-services-section/sites/shop.561.group
+	url = https://github.com/causeway-services/shop.561.group.git
+	branch = main
+[submodule "public-print-on-demand-services-section"]
+	path = services/public-consumer-resources-services-section/services/public-print-on-demand-services-section
+	url = https://github.com/causeway-services/public-print-on-demand-services-section.git
+	branch = main
+[submodule "public-energy-services-section"]
+	path = services/public-energy-services-section
+	url = https://github.com/causeway-services/public-energy-services-section.git
+	branch = main

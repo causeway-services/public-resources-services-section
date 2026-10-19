@@ -5,5 +5,9 @@
   "type": "module",
   "keywords": [
     "public"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/causeway-services/public-resources-services-section.git"
+  }
 }

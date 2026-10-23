@@ -12,6 +12,8 @@ Merch Assist is a **creator-side service interface**, not a second Shop, Bazaar,
 
 The first viable job is **one permitted image → one qualified printable T-shirt → one approved seller offer → one externally confirmed order/delivery**. Do not substitute mockups, speculative price tables, provider-created product IDs, or test checkouts for those different facts.
 
+**Reusable image-to-print candidate supplier (draft):** [Red Cup Print Design PR #2](https://github.com/red-cup-engineering/print-design-engineering-services-section/pull/2) adds a source-hash-checked, claim-scoped image placement operation using original transparent PNG composition and recorded physical dimensions. It returns only a candidate and its manifest, not a commercial-license award, garment quality acceptance, supplier product, paid order or Shop listing. This must be independently received before the service treats creator images as runnable inputs.
+
 ## A usable intake now, before self-service uploads exist
 
 A visitor can request a *nonbinding* product feasibility/commission conversation at [causeway@561.group](mailto:causeway@561.group?subject=Merch%20Assist%20product%20request) with:

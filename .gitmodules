@@ -6,7 +6,3 @@
 	path = services/public-consumer-resources-services-section/services/public-print-on-demand-services-section
 	url = https://github.com/causeway-services/public-print-on-demand-services-section.git
 	branch = main
-[submodule "public-energy-services-section"]
-	path = services/public-energy-services-section
-	url = https://github.com/causeway-services/public-energy-services-section.git
-	branch = main

@@ -7,4 +7,6 @@
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
 
+Causeway Services' public-resource records and delivery surfaces, holding public consumer resources and public energy records.
+
 Causeway Services' public-resource records and delivery surfaces. It holds resource-specific public sections, including public consumer resources and public energy records.

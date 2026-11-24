@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1620mm" height="790mm" viewBox="0 0 1620 790" role="img" aria-labelledby="title desc">
+<title id="title">Transit Layer: open-front woven vest cut and seam model, ungraded sample</title>
+<desc id="desc">Three original apparel pattern panels: full back and mirrored fronts, with 10 mm cut allowance, seam joins, vertical grain direction, scale square. This untested sample is not an accepted garment pattern.</desc>
+<rect x="0" y="0" width="1620" height="790" fill="white"/>
+<text x="30" y="25" font-family="sans-serif" font-size="17" font-weight="700">TRANSIT LAYER — CUT/SEAM SAMPLE v0.1 · MILLIMETRES · NOT GRADED OR FIT TESTED</text>
+<g id="back" fill="none" stroke-linejoin="round">
+<polygon points="35,715 35,299.583 83.2071,268.1436 109.9618,212.7892 109.0275,156.7327 91.6308,105.5091 70.3666,53.6776 258.2088,44.8379 275.7486,58.415 289.8987,67.3767 303.8828,74.2652 317.7038,79.1282 331.3904,82.0175 345,82.9753 358.6096,82.0175 372.2962,79.1282 386.1172,74.2652 400.1013,67.3767 414.2514,58.415 431.7912,44.8379 619.6334,53.6776 598.3692,105.5091 580.9725,156.7327 580.0382,212.7892 606.7929,268.1436 655,299.583 655,715" stroke="#111" stroke-width="1.25"/>
+<polygon points="45,705 45,305 91,275 120,215 119,155 101,102 85,63 255,55 270,66.6111 285,76.1111 300,83.5 315,88.7778 330,91.9444 345,93 360,91.9444 375,88.7778 390,83.5 405,76.1111 420,66.6111 435,55 605,63 589,102 571,155 570,215 599,275 645,305 645,705" stroke="#00758f" stroke-dasharray="6 3" stroke-width=".8"/>
+<line x1="345" y1="345" x2="345" y2="565" stroke="#aa4b20" stroke-width="1.2"/>
+<path d="M 338,359 L 345,345 L 352,359 M 338,551 L 345,565 L 352,551" stroke="#aa4b20" stroke-width="1.2"/>
+<text x="305" y="324" font-family="sans-serif" font-size="11" fill="#111">GRAIN / BACK</text>
+</g>
+<g id="right-front" fill="none" stroke-linejoin="round">
+<polygon points="720,715 720,288.4963 740.5373,221.7501 778.7688,121.141 813.7163,44.6932 1003.1175,53.6062 984.4361,118.3683 955.4787,185.9356 968.951,244.3154 1040,300.1396 1040,715" stroke="#111" stroke-width="1.25"/>
+<polygon points="730,705 730,290 750,225 788,125 820,55 990,63 975,115 945,185 960,250 1030,305 1030,705" stroke="#00758f" stroke-dasharray="6 3" stroke-width=".8"/>
+<line x1="920" y1="345" x2="920" y2="565" stroke="#aa4b20" stroke-width="1.2"/>
+<path d="M 913,359 L 920,345 L 927,359 M 913,551 L 920,565 L 927,551" stroke="#aa4b20" stroke-width="1.2"/>
+<text x="880" y="324" font-family="sans-serif" font-size="11" fill="#111">GRAIN / RIGHT FRONT</text>
+</g>
+<g id="left-front" fill="none" stroke-linejoin="round">
+<polygon points="1120,715 1120,300.1396 1191.049,244.3154 1204.5213,185.9356 1175.5639,118.3683 1156.8825,53.6062 1346.2837,44.6932 1381.2312,121.141 1419.4627,221.7501 1440,288.4963 1440,715" stroke="#111" stroke-width="1.25"/>
+<polygon points="1130,705 1130,305 1200,250 1215,185 1185,115 1170,63 1340,55 1372,125 1410,225 1430,290 1430,705" stroke="#00758f" stroke-dasharray="6 3" stroke-width=".8"/>
+<line x1="1230" y1="345" x2="1230" y2="565" stroke="#aa4b20" stroke-width="1.2"/>
+<path d="M 1223,359 L 1230,345 L 1237,359 M 1223,551 L 1230,565 L 1237,551" stroke="#aa4b20" stroke-width="1.2"/>
+<text x="1190" y="324" font-family="sans-serif" font-size="11" fill="#111">GRAIN / LEFT FRONT</text>
+</g>
+<rect x="1480" y="90" width="100" height="100" fill="none" stroke="#111" stroke-width="1.25"/>
+<text x="1480" y="83" font-family="sans-serif" font-size="12">100 x 100 mm TEST</text>
+<text x="30" y="751" font-family="sans-serif" font-size="11">SOLID black = 10 mm cut allowance; DASHED blue = sewing/finished-edge line. R12/DXF export is a separate plain-DXF projection; NOT ASTM DXF-AAMA.</text>
+<text x="30" y="770" font-family="sans-serif" font-size="10">Hypothesis: 100 cm body chest + 20 cm nominal ease if front edges meet; open-front shape is not a measured closed circumference. Fit/muslin required.</text>
+</svg>
